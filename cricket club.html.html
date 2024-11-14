@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cricket Club Registration Form Of Royal Delhi Champions</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		
+		form {
+			width: 50%;
+			margin: 40px auto;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		
+		input[type="text"], input[type="email"], input[type="number"], select {
+			width: 100%;
+			height: 40px;
+			margin-bottom: 20px;
+			padding: 10px;
+			border: 1px solid #ccc;
+		}
+		
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<h2>Cricket Club Registration Form Of Royal Delhi Champions</h2>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+		
+		<label for="email">Name Of School:</label>
+		<input type="Name Of School" Name="Name Of School" name="Name Of School" required>
+		
+		<label for="phone">Phone Number:</label>
+		<input type="number" id="phone" name="phone" required>
+		
+		<label for="age">Age:</label>
+		<input type="number" id="age" name="age" required>
+		
+		<label for="role">Role in the team:</label>
+		<select id="role" name="role">
+			<option value="">Select</option>
+			<option value="Batsman">Batsman</option>
+			<option value="Bowler">Bowler</option>
+			<option value="All-rounder">All-rounder</option>
+			<option value="Wicket-keeper">Wicket-keeper</option>
+		</select>
+		
+		<label for="experience">Previous experience (if any):</label>
+		<textarea id="experience" name="experience" rows="5" cols="30"></textarea>
+		
+		<input type="submit" value="Register">
+	</form>
+</body>
+</html>
